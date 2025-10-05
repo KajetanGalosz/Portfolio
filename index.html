@@ -1,11 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Porfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio – Kajetan Gałosz</title>
 </head>
 <body>
-    
+  <header>
+    <nav>
+      <h1>Kajetan Gałosz</h1>
+      <ul>
+        <li><a href="#about">O mnie</a></li>
+        <li><a href="#skills">Umiejętności</a></li>
+        <li><a href="#projects">Projekty</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Cześć, jestem Jan 👋</h2>
+    <p>Front-End Developer z pasją do czystego kodu i nowoczesnych technologii webowych.</p>
+  </section>
+
+  <section id="about" class="section about">
+    <h3>O mnie</h3>
+    <p>
+      Jestem programistą front-end z doświadczeniem w HTML, CSS, JavaScript i React.
+      Lubię tworzyć przejrzyste i intuicyjne interfejsy użytkownika. W wolnym czasie
+      rozwijam projekty open-source i uczę się nowych technologii.
+    </p>
+  </section>
+
+  <section id="skills" class="section">
+    <h3>Umiejętności</h3>
+    <div class="skills-grid">
+      <div class="skill">HTML5</div>
+      <div class="skill">CSS3</div>
+      <div class="skill">JavaScript (ES6+)</div>
+      <div class="skill">React</div>
+      <div class="skill">Git & GitHub</div>
+      <div class="skill">REST API</div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h3>Projekty</h3>
+    <div class="projects-grid">
+      <div class="project">
+        <img src="https://placehold.co/600x400" alt="Projekt 1" />
+        <div class="project-content">
+          <h4>Portfolio Web</h4>
+          <p>Nowoczesna strona portfolio napisana w czystym HTML i CSS.</p>
+        </div>
+      </div>
+      <div class="project">
+        <img src="https://placehold.co/600x400" alt="Projekt 2" />
+        <div class="project-content">
+          <h4>Weather App</h4>
+          <p>Aplikacja pogodowa korzystająca z API OpenWeather i React Hooks.</p>
+        </div>
+      </div>
+      <div class="project">
+        <img src="https://placehold.co/600x400" alt="Projekt 3" />
+        <div class="project-content">
+          <h4>To-Do List</h4>
+          <p>Responsywna lista zadań z lokalnym zapisem danych w przeglądarce.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Kajetan Gałosz — Wszystkie prawa zastrzeżone
+  </footer>
 </body>
 </html>
