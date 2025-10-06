@@ -14,7 +14,7 @@
       box-shadow: 0 2px 5px rgba(0,0,0,0.05);
       position: sticky;
       top: 0;
-      z-index: 10;
+      
     }
     nav {
       width: 90%;
@@ -43,7 +43,30 @@
       color: #007bff;
     }
 
-    /* HERO SECTION */
+    .portfolio{
+      text-align: center;
+      font-size: 400%;
+      padding: 20px;
+    }
+    .portfolio h1{
+      letter-spacing: 40px;
+      background: linear-gradient(270deg, #ffaf2f,#8dda1a, #5ad0ff, #0fa4c9, #ff66ff,#c73312);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: changeColor 30s infinite ease;
+      background-size: 800% 800%;
+    }
+    @keyframes changeColor{
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
     .hero {
       text-align: center;
       padding: 100px 20px 80px;
@@ -62,6 +85,10 @@
       width: 90%;
       max-width: 1000px;
       margin: 80px auto;
+      border: 10px #cbbcbc dotted;
+      padding: 20px;
+      border-radius: 5%;
+      box-sizing: content-box;
     }
     .section h3 {
       font-size: 1.8rem;
@@ -142,3 +169,4 @@
       .hero h2 { font-size: 1.8rem; }
       .section h3 { font-size: 1.5rem; }
     }
+ 
