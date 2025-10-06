@@ -55,6 +55,7 @@
       -webkit-text-fill-color: transparent;
       animation: changeColor 30s infinite ease;
       background-size: 800% 800%;
+      
     }
     @keyframes changeColor{
       0% {
@@ -69,7 +70,7 @@
     }
     .hero {
       text-align: center;
-      padding: 100px 20px 80px;
+      padding: 100px 20px 50px;
     }
     .hero h2 {
       font-size: 2.4rem;
@@ -138,10 +139,15 @@
     .project:hover {
       transform: translateY(-5px);
     }
-    .project img {
+    .project-image img {
       width: 100%;
       height: 180px;
       object-fit: cover;
+    }
+    .project-image {
+      background-color: #b6aeae;
+      height: 180px;
+      
     }
     .project-content {
       padding: 20px;
@@ -163,10 +169,16 @@
       box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
       color: #777;
       font-size: 0.9rem;
+      position: relative;
     }
 
     @media (max-width: 600px) {
       .hero h2 { font-size: 1.8rem; }
       .section h3 { font-size: 1.5rem; }
+    }
+    #cat8bit{
+      position: absolute;
+      right: 5px;
+      top: -100px;
     }
  
